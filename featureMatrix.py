@@ -35,7 +35,6 @@ class FeatureMat(object):
 			triplet = [self.rowNameMap[rowName], self.colNameMap[colName], value]
 			self.matrix.append(triplet)
 						 
-
 	def addFile(self, file_name, skip_lines = 1, rowNameInd = 0, colNameInd = 1, valueInd = 2, delim = '|', binaryFeatures = []):
 		""""""
 		f = open(file_name, 'r')
